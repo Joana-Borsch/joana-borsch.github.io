@@ -22,6 +22,7 @@ icon: /assets/images/icon-512.png
 twitter_username: escalimpal
 github_username: escalimpal
 lang: ca
+date_locale: ca
 
 hide_search: true
 # Build settings
@@ -42,6 +43,7 @@ exclude:
 
 plugins:
   - jekyll-paginate
+  - jekyll-date-localization
 
 paginate: 3
 paginate_path: "/page:num/"

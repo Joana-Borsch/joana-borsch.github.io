@@ -19,7 +19,7 @@ layout: default
 
 <main class="home" id="main" aria-label="Content">
   <h1 class="content-title divided">
-    {% if site.paginate and site.paginate_path and paginator.page > 1 %} {{ paginator.page | to_roman }} {% else %} Ressenyes {% endif %}
+    {% if site.paginate and site.paginate_path and paginator.page >= 1 %} Acte {{ paginator.page | to_roman }}{% else %}Ressenyes{% endif %}
   </h1>
 
   {% if site.paginate and site.paginate_path %}
@@ -32,13 +32,13 @@ layout: default
     {% if paginator.total_pages > 1 %}
       <div class="post-pagination">
         {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&nbsp;Anterior</a>
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&lang; Anterior</a>
         {% else %}
           <span>&nbsp;</span>
         {% endif %}
         <span class="pagination-number">{{ paginator.page }} de {{ paginator.total_pages }}</span>
         {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn">Següent&nbsp;&rang;</a>
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn">Següent &rang;&rang;</a>
         {% else %}
           <span>&nbsp;</span>
         {% endif %}
