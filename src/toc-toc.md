@@ -2,6 +2,7 @@
 layout: page
 title: L'autora
 ---
+
 Joana Börsch va néixer un dia de boira espessa, en una ciutat que no existeix en cap mapa. Des de petita, somiava amb escenaris il·luminats i ovacions infinites, però el seu destí es va entrebancar amb una cullera de fusta. Un dia, mentre intentava improvisar un monòleg shakespearià davant d’un mirall, va cuinar accidentalment la primera sopa russa perfecta de la història. La notícia es va escampar com la pólvora: en aquell mateix instant, un crític gastronòmic despistat va tastar la sopa i va plorar d’emoció. Així va començar la seva maledicció.
 
 Avui dia, Joana és una celebritat mundial de les sopes russes. Els grans xefs l’adoren, els restaurants la veneren i els clients fan cues quilomètriques per tastar la seva sopa màgica. Però ella odia cada gota d’aquella maleïda escudella. La seva existència és una tragicomèdia: mentre la humanitat li demana més borsx, ella només vol un paper en una pel·lícula seriosa. Tot i haver fet audicions per a centenars de pel·lícules, només aconsegueix papers anecdòtics, sovint com a “Dona que serveix sopa” o “Cuinera #3”. Fins i tot una vegada, en una pel·lícula de ciència-ficció, el seu personatge era una sopa vivent que parlava. L’absurd la persegueix.
