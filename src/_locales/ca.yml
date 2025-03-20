@@ -11,18 +11,18 @@ ca:
       - ds.
     abbr_month_names:
       -
-      - gen
-      - feb
-      - mar
-      - abr
-      - mai
-      - jun
-      - jul
-      - ago
-      - set
-      - oct
-      - nov
-      - des
+      - gen.
+      - feb.
+      - mar.
+      - abr.
+      - mai.
+      - jun.
+      - jul.
+      - ago.
+      - set.
+      - oct.
+      - nov.
+      - des.
     day_names:
       - diumenge
       - dilluns

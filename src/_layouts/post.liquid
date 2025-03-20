@@ -14,8 +14,8 @@ layout: default
       {% if page.author %}
         <div itemprop="author">{{ page.author }}</div>
       {% endif %}
-      <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema | localize: '%-d %b %Y'}}" itemprop="datePublished">
-        {{- page.date | date: '%B %-d, %Y' | localize: '%-d %b %Y' -}}
+      <time class="post-date dt-published" datetime="{{ page.date | localize: '%-d %b %Y'}}" itemprop="datePublished">
+        {{- page.date | localize: '%-d %b %Y' -}}
       </time>
     </div>
   {% endif %}
