@@ -7,7 +7,9 @@
       </li>
       {% for item in site.data.menu %}
         <li
-          {% if page.url | remove:".html" == item.url %}class="active"{% endif %}
+          {% if page.url | remove:".html" == item.url %}
+            class="active"
+          {% endif %}
         >
           {% if item.url contains 'https' %}
             <a href="{{ item.url }}">{{ item.title }}</a>
