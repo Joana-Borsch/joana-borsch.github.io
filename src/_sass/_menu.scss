@@ -20,7 +20,6 @@
   list-style: none;
   font-size: 0.875em;
   font-variant: small-caps;
-  margin: 0;
   &.active a {
     text-decoration: underline;
   }
@@ -35,4 +34,8 @@
   &:focus {
     opacity: 1;
   }
+}
+
+.lightbulb {
+  margin-left: .5em;
 }

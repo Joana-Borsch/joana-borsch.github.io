@@ -1,23 +1,22 @@
 {% assign menu = site.data.menu %}
+{% assign current_url = page.url | remove: '.html' | remove: '/' %}
 {% if menu %}
   <nav class="site-navigation">
     <ul>
-      <li>
+      <li class="{% if page.url == '/' %}active{% endif %}">
         <a href="{{ '/' | prepend: site.baseurl }}">Portada</a>
       </li>
       {% for item in site.data.menu %}
-        <li
-          {% if page.url | remove:".html" == item.url %}
-            class="active"
-          {% endif %}
-        >
+        {% assign item_url = item.url | remove: '.html' | remove: '/' %}
+        <li class="{% if current_url == item_url %}active{% endif %}">
           {% if item.url contains 'https' %}
             <a href="{{ item.url }}">{{ item.title }}</a>
           {% else %}
-            <a href="/{{ item.url | prepend: site.baseurl }}"> {{ item.title }} </a>
+            <a href="/{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
           {% endif %}
         </li>
       {% endfor %}
+      <li class="lightbulb">{% include theme-toggle.liquid %}</li>
     </ul>
   </nav>
 {% endif %}
