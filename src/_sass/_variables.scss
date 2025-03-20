@@ -1,6 +1,6 @@
 @use "sass:color";
 
-$asset_url: "" !default; 
+$asset_url: "" !default;
 $brand-color: wheat;
 $highlight: color.scale($brand-color, $lightness: 35%);
 $text-color: #0b0404;

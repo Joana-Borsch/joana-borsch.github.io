@@ -3,6 +3,7 @@ title: Algú no pot haver en si poder
 layout: post
 author: Ausiàs March
 ---
+
 Algú no pot haver en si poder\\
 altre amar contra sa voluntat\\
 ne ser tan fort n' ab tanta potestat\\

@@ -3,6 +3,7 @@ title: Tan en amor ma pensa ha consentit
 author: Ausiàs March
 layout: post
 ---
+
 Tan en amor ma pensa ha consentit\\
 que sens aquell en als no puch entendre\\
 á mí que 'm plau que d' als no puscha pendre\\

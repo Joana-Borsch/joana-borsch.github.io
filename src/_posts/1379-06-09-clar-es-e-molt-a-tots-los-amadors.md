@@ -3,6 +3,7 @@ title: Clar es é mòlt á tot los amadors
 author: Ausiàs March
 layout: post
 ---
+
 Clar es é mòlt á tot los amadors\\
 y á tots aquells que de mí han sabut\\
 que mon semblant no n' es huy conegut\\

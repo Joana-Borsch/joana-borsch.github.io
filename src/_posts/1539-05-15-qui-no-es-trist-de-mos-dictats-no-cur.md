@@ -3,6 +3,7 @@ layout: post
 title: Qui no es trist de mos dictats no cur
 author: Ausiàs March
 ---
+
 Qui no es trist de mos dictats no cur\\
 ó en algun temps que sia trist estat\\
 é lo qui es de mals apassionat\\

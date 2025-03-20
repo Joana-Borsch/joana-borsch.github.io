@@ -3,6 +3,7 @@ title: Lo viscahí que 's troba en Alemaya
 author: Ausiàs March
 layout: post
 ---
+
 Lo viscahí que 's troba en Alemaya\\
 paralitich que no pot senyalar\\
 si es malalt, remey no li pot dar\\
@@ -63,5 +64,3 @@ Bella ab bon seny, tot es poca faena\\
 al mèu affany véure vos lluny estar\\
 car prop de vos res no 'm pot mal temps dar\\
 y lluny de vos no trob res bo sens pena.
-
- 
