@@ -1,6 +1,7 @@
 /**
  * Syntax highlighting styles
  */
+ @use "variables" as *;
 
 code.highlighter-rouge {
   background: $highlight;

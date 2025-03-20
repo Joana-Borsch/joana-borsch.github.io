@@ -1,3 +1,7 @@
+@use "sass:color";
+@use "variables" as *;
+@use "mixins";
+
 body {
   background: $brand-color;
   color: $text-color;
@@ -84,7 +88,7 @@ p > cite {
 hr {
   border: 0;
   height: 0;
-  @include divider;
+  @include mixins.divider;
   margin: 4em 0;
 }
 
@@ -109,7 +113,7 @@ figcaption {
 
 .divided::after {
   content: "";
-  @include divider;
+  @include mixins.divider;
 }
 
 .home {
@@ -154,7 +158,7 @@ figcaption {
   text-transform: uppercase;
   &:hover,
   &:focus {
-    background: lighten($brand-color, 2.5%);
+    background: color.scale($brand-color, $lightness: 2.5%);
     border-color: $text-color;
     margin-top: 0;
   }

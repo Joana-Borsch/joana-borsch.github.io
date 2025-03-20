@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins";
+
 .footnote {
   border: 1px solid $muted-text-color;
   border-radius: 1em;
@@ -17,7 +20,7 @@
 
 .footnotes::before {
   content: "";
-  @include divider;
+  @include mixins.divider;
   margin: 4em auto;
 }
 

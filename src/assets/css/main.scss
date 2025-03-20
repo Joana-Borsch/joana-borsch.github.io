@@ -1,8 +1,19 @@
 ---
 ---
-
 @charset "utf-8";
 
-$asset_url: "{{ '/assets' | absolute_url }}";
 
-@import "reset", "variables", "syntax-highlighting", "mixins", "font", "base", "masthead", "menu", "post-list", "article", "footnotes", "search";
+@use "reset";
+@use "variables" with (
+  $asset_url: "{{ '/assets' | absolute_url }}"
+);
+@use "syntax-highlighting";
+@use "mixins";
+@use "font"; 
+@use "base";
+@use "masthead";
+@use "menu";
+@use "post-list";
+@use "article";
+@use "footnotes";
+@use "search";
