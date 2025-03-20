@@ -1,26 +1,18 @@
 ---
 layout: default
 ---
-{% if site.data.menu and site.paginate and site.paginate_path and paginator.page > 1 %}
-  {% include menu.liquid %}
-{% elsif site.paginate and site.paginate_path and paginator.page > 1 %}
-  {% include back-link.liquid %}
-{% else %}
-  <header class="site-masthead">
-    {% include menu.liquid %}
-    {% if site.title %}
-      <h1>{{ site.title }}</h1>
-    {% endif %}
-    {% if site.title %}
-      <h2>{{ site.description }}</h2>
-    {% endif %}
-  </header>
-{% endif %}
+{% include menu.liquid %}
+<header class="site-masthead">
+  {% if site.title %}
+    <h1>{{ site.title }}</h1>
+  {% endif %}
+  {% if site.title %}
+    <h2>{{ site.description }}</h2>
+  {% endif %}
+</header>
 
 <main class="home" id="main" aria-label="Content">
-  <h1 class="content-title divided">
-    {% if site.paginate and site.paginate_path and paginator.page >= 1 %} Acte {{ paginator.page | to_roman }}{% else %}Ressenyes{% endif %}
-  </h1>
+  <h1 class="content-title divided">{% if site.paginate and site.paginate_path and paginator.page >= 1 %}Acte {{ paginator.page | to_roman }}{% else %}Ressenyes{% endif %}</h1>
 
   {% if site.paginate and site.paginate_path %}
     <ul class="post-list">
@@ -31,14 +23,14 @@ layout: default
 
     {% if paginator.total_pages > 1 %}
       <div class="post-pagination">
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&lang; Anterior</a>
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn"> &lang;&lang; Anterior</a>
         {% else %}
           <span>&nbsp;</span>
         {% endif %}
         <span class="pagination-number">{{ paginator.page }} de {{ paginator.total_pages }}</span>
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn">Següent &rang;&rang;</a>
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="pagination-next btn">Següent &rang;&rang;</a>
         {% else %}
           <span>&nbsp;</span>
         {% endif %}
