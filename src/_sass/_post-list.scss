@@ -1,4 +1,4 @@
-@use "variables" as *;
+@use "variables";
 
 .post-list {
   margin: 1em 0;
@@ -16,7 +16,7 @@
 }
 
 .post-link {
-  color: $text-color;
+  color: var(--text-color);
   display: flex;
   flex-direction: column-reverse;
   text-decoration: none;
@@ -26,7 +26,7 @@
   &:focus {
     opacity: 1 !important;
   }
-  @media (min-width: $on-tablet) {
+  @media (min-width: variables.$on-tablet) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -39,7 +39,7 @@
 .post-link__heading {
   display: block;
   margin-right: 4em;
-  @media (min-width: $on-tablet) {
+  @media (min-width: variables.$on-tablet) {
     padding: 0.25em 0;
   }
   h1 {

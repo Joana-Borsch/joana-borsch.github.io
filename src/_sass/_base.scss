@@ -1,11 +1,12 @@
 @use "sass:color";
-@use "variables" as *;
+@use "variables";
+@use "themes" as *;
 @use "mixins";
-
+ 
 body {
-  background: $brand-color;
-  color: $text-color;
-  font-family: $font-family;
+  background: var(--brand-color);
+  color: var(--text-color);
+  font-family: variables.$font-family;
   font-size: 1.3125em;
   line-height: 1.5;
   display: flex;
@@ -63,11 +64,11 @@ strong {
 }
 
 a {
-  color: $text-color;
+  color: var(--text-color);
 }
 
 a:focus {
-  outline: 1px dashed $text-color;
+  outline: 1px dashed var(--text-color);
 }
 
 blockquote {
@@ -94,7 +95,6 @@ p > cite {
 hr {
   border: 0;
   height: 0;
-  @include mixins.divider;
   margin: 4em 0;
 }
 
@@ -135,7 +135,7 @@ figcaption {
 }
 
 .post-date {
-  color: $muted-text-color;
+  color: var(--muted-text-color);
   display: block;
   font-size: 0.825em;
   white-space: nowrap;
@@ -152,7 +152,7 @@ figcaption {
 }
 
 .skip-navigation {
-  background: $brand-color;
+  background: var(--brand-color);
   border: 1px dashed transparent;
   display: block;
   font-size: 0.875em;
@@ -164,8 +164,8 @@ figcaption {
   text-transform: uppercase;
   &:hover,
   &:focus {
-    background: color.scale($brand-color, $lightness: 2.5%);
-    border-color: $text-color;
+    background: var(--brand-color-hover);
+    border-color: var(--text-color);
     margin-top: 0;
   }
 }

@@ -1,10 +1,10 @@
-@use "variables" as *;
+@use "themes" as *;
 @use "mixins";
 
 .footnote {
-  border: 1px solid $muted-text-color;
+  border: 1px solid var(--muted-text-color);
   border-radius: 1em;
-  color: $text-color;
+  color: var(--text-color);
   display: inline;
   font-size: 0.75em;
   font-weight: 700;
@@ -13,8 +13,8 @@
   margin: 0 0.25em;
   &:hover,
   &:focus {
-    background: $brand-color;
-    border-color: $brand-color;
+    background: var(--brand-color);
+    border-color: var(--brand-color);
   }
 }
 

@@ -1,4 +1,5 @@
-@use "variables" as *;
+@use "themes" as *;
+@use "variables";
 
 #search {
   margin: 0 auto;
@@ -9,12 +10,12 @@
 #search__input {
   background: transparent;
   border: 0;
-  font: 1em $font-family;
+  font: 1em variables.$font-family;
   padding: 0.5em;
-  color: $text-color;
+  color: var(--text-color);
   text-align: center;
   &:focus {
-    outline: 1px dashed $text-color;
+    outline: 1px dashed var(--text-color);
   }
 }
 
@@ -23,14 +24,14 @@
 }
 
 ::-webkit-input-placeholder {
-  color: $muted-text-color;
+  color: var(--muted-text-color);
 }
 ::-moz-placeholder {
-  color: $muted-text-color;
+  color: var(--muted-text-color);
 }
 :-ms-input-placeholder {
-  color: $muted-text-color;
+  color: var(--muted-text-color);
 }
 :-moz-placeholder {
-  color: $muted-text-color;
+  color: var(--muted-text-color);
 }

@@ -1,10 +1,4 @@
-@use "sass:color";
-
 $asset_url: "" !default;
-$brand-color: wheat;
-$highlight: color.scale($brand-color, $lightness: 35%);
-$text-color: #0b0404;
-$muted-text-color: #64644b;
 $font-family: "EB Garamond", Garamond, "Times New Roman", serif;
 
 $on-bigphone: 375px;

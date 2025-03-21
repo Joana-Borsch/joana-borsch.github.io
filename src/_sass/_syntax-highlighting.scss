@@ -1,10 +1,10 @@
 /**
  * Syntax highlighting styles
  */
-@use "variables" as *;
+@use "themes" as *;
 
 code.highlighter-rouge {
-  background: $highlight;
+  background: var(--highlight);
   font-family: courier, monospace;
   font-size: 0.875em;
 }
@@ -20,7 +20,7 @@ code.highlighter-rouge {
   }
 
   .highlighter-rouge & {
-    background: $highlight;
+    background: var(--highlight);
   }
 
   .c {
