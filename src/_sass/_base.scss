@@ -2,7 +2,7 @@
 @use "variables";
 @use "themes" as *;
 @use "mixins";
- 
+
 body {
   background: var(--brand-color);
   color: var(--text-color);

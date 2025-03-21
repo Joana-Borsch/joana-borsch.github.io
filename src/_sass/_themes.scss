@@ -7,24 +7,24 @@
     --brand-color-hover: #{map.get($theme, brand-color-hover)};
     --highlight: #{map.get($theme, highlight)};
     --text-color: #{map.get($theme, text-color)};
-    --muted-text-color : #{map.get($theme, muted-text-color)};
+    --muted-text-color: #{map.get($theme, muted-text-color)};
   }
 }
 
 $theme-light: (
-  brand-color:#F5DEB3,
-  brand-color-hover: color.scale(#F5DEB3, $lightness: 2.5%),
-  highlight: color.scale(#F5DEB3, $lightness: 35%),
-  text-color:  #0b0404,
-  muted-text-color: #64644b
+  brand-color: #f5deb3,
+  brand-color-hover: color.scale(#f5deb3, $lightness: 2.5%),
+  highlight: color.scale(#f5deb3, $lightness: 35%),
+  text-color: #0b0404,
+  muted-text-color: #64644b,
 );
 
 $theme-dark: (
   brand-color: #2e3440,
   brand-color-hover: color.scale(#2e3440, $lightness: 2.5%),
   highlight: color.scale(#2e3440, $lightness: 35%),
-  text-color:  white,
-  muted-text-color: color.scale(white, $lightness: -35%)
+  text-color: white,
+  muted-text-color: color.scale(white, $lightness: -35%),
 );
 
 @include define-theme("light", $theme-light);

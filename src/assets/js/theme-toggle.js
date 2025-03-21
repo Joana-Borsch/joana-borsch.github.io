@@ -17,13 +17,12 @@
 
     // Update HTML attribute for theme
     document.documentElement.setAttribute("data-theme", preference);
-    document.body.classList.remove('theme-dark', 'theme-light');
+    document.body.classList.remove("theme-dark", "theme-light");
     document.body.classList.add(`theme-${preference}`);
 
     // Update button aria-label and title
     const toggleLabel = document.querySelector(".theme-toggle");
     const toggle = document.querySelector("#theme-toggle");
-
 
     if (toggleLabel) {
       toggleLabel.setAttribute("aria-label", preference);
