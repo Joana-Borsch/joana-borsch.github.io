@@ -55,3 +55,5 @@ Lir entre carts, Dèu vos don coneixença\\
 com sò per vos á tot estrem posat\\
 ab son poder Amor m' ha 'nderrocat\\
 sens aquell sèu d' infinita potença.
+
+
