@@ -27,6 +27,8 @@ date_locale: ca
 hide_search: true
 # Build settings
 markdown: kramdown
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -45,7 +47,10 @@ plugins:
   - jekyll-paginate
   - jekyll-date-localization
 
+
 paginate: 3
 paginate_path: "/page:num/"
+
+
 livereload: true
 port: 8080
