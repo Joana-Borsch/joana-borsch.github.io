@@ -50,10 +50,10 @@ plugins:
 pagination:
   enabled: true
   per_page: 3
-  permalink: '/page:num/'
-  title: ' - :num'
+  permalink: "/page:num/"
+  title: " - :num"
   limit: 0
-  sort_field: 'date'
+  sort_field: "date"
   sort_reverse: true
 
 livereload: true

@@ -4,14 +4,14 @@ pagination:
   enabled: true
   per_page: 3
 ---
-  <ul class="post-list">
-    {% assign category = page.category | default: page.pagination.category %}
-    {% assign category_posts = site.posts | where_exp: "post", "post.categories contains page.pagination.category" %}
-    {% if category_posts %}
+<ul class="post-list">
+  {% assign category = page.category | default: page.pagination.category %}
+  {% assign category_posts = site.posts | where_exp: 'post', 'post.categories contains page.pagination.category' %}
+  {% if category_posts %}
     {% for post in category_posts %}
-        {% include post-list-item.liquid %}
+      {% include post-list-item.liquid %}
     {% endfor %}
-    {% else %}
+  {% else %}
     <li>No hi ha {{ category }}.</li>
-    {% endif %}
-  </ul>
+  {% endif %}
+</ul>
