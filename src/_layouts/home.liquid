@@ -13,10 +13,10 @@ layout: default
 
 <main class="home" id="main" aria-label="Content">
   <h1 class="content-title divided">
-    {% if site.paginate and site.paginate_path and paginator.page >= 1 %}Acte {{ paginator.page | to_roman }}{% else %}Ressenyes{% endif %}
+    {% if site.pagination.enabled and site.paginate_path and paginator.total_pages >= 1 %}Acte {{ paginator.page | to_roman }}{% else %}Ressenyes{% endif %}
   </h1>
 
-  {% if site.paginate and site.paginate_path %}
+  {% if site.pagination.enabled and site.paginate_path %}
     <ul class="post-list">
       {% for post in paginator.posts %}
         {% include post-list-item.liquid %}

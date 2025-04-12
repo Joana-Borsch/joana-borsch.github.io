@@ -44,11 +44,17 @@ exclude:
   - scripts
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-date-localization
 
-paginate: 3
-paginate_path: "/page:num/"
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page:num/'
+  title: ' - :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 livereload: true
 port: 8080
