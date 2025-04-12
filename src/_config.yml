@@ -47,10 +47,8 @@ plugins:
   - jekyll-paginate
   - jekyll-date-localization
 
-
 paginate: 3
 paginate_path: "/page:num/"
-
 
 livereload: true
 port: 8080
