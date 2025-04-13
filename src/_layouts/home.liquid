@@ -13,10 +13,10 @@ layout: default
 
 <main class="home" id="main" aria-label="Content">
   <h1 class="content-title divided">
-    {% if site.pagination.enabled and site.paginate_path and paginator.total_pages >= 1 -%}
+    {% if site.pagination.enabled and site.paginate_path and paginator.total_pages > 1 -%}
       Acte {{ paginator.page | to_roman -}}
     {%- else -%}
-      Ressenyes
+      Acte I
     {%- endif %}
   </h1>
 
