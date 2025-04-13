@@ -1,6 +1,19 @@
 {
-  "devDependencies": {
-    "@shopify/prettier-plugin-liquid": "^1.8.2",
-    "prettier": "^3.5.2"
+  "name": "joana-borsch.github.io",
+  "version": "1.0.0",
+  "description": "Fugint de l'Escalímpal",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joana-Borsch/joana-borsch.github.io.git"
+  },
+  "author": "Hipervincle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joana-Borsch/joana-borsch.github.io/issues"
+  },
+  "homepage": "https://github.com/Joana-Borsch/joana-borsch.github.io#readme",
+  "scripts": {
+    "prepare": "husky"
   }
 }
