@@ -50,6 +50,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
+
 pagination:
   enabled: true
   per_page: 3
@@ -63,5 +67,3 @@ livereload: true
 port: 8080
 #TODO: previous and next
 #TODO: v2 pagination stuff
-#TODO: different headline opt
-#TODO: instagram
