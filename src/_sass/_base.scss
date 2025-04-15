@@ -3,6 +3,8 @@
 @use "themes" as *;
 @use "mixins";
 
+$breakpoint-md: 1280px;
+
 body {
   background: var(--brand-color);
   color: var(--text-color);
@@ -161,6 +163,12 @@ figcaption {
   align-items: center;
   gap: 0.3em;
   text-decoration: none;
+}
+
+@media (max-width: #{$breakpoint-md}) {
+  .social-link__text {
+    display: none;
+  }
 }
 
 .skip-navigation {
