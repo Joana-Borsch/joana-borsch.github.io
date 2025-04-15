@@ -19,8 +19,6 @@ description: Teatre i pensament
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://escalimpal.com" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
-twitter_username: escalimpal
-github_username: escalimpal
 lang: ca
 date_locale: ca
 
