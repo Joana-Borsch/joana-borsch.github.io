@@ -1,12 +1,4 @@
 #!/bin/sh
-# Install node deps defaulting to yarn
-if [ -f package.json ]; then 
-    if [ -f package-lock.json ]; then
-        npm -i
-    fi
-    yarn
-fi
-
 cd src
 
 if [ -f Gemfile.lock ] && grep "BUNDLED WITH" Gemfile.lock > /dev/null; then

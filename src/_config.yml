@@ -46,6 +46,9 @@ exclude:
 plugins:
   - jekyll-paginate-v2
   - jekyll-date-localization
+  - jekyll-minifier
+  - jekyll-sitemap
+  - jekyll-feed
 
 pagination:
   enabled: true
@@ -58,3 +61,7 @@ pagination:
 
 livereload: true
 port: 8080
+#TODO: previous and next
+#TODO: v2 pagination stuff
+#TODO: different headline opt
+#TODO: instagram
