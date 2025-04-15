@@ -63,5 +63,4 @@ pagination:
 
 livereload: true
 port: 8080
-#TODO: previous and next
 #TODO: v2 pagination stuff
