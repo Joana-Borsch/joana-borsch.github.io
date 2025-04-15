@@ -148,9 +148,19 @@ figcaption {
 }
 
 .site-credits {
+  display: flex;
   margin: 0 auto 2em;
   padding: 0 2em;
   text-align: center;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  text-decoration: none;
 }
 
 .skip-navigation {
