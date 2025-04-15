@@ -66,3 +66,13 @@ $breakpoint-md: 1280px;
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.previous-next {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5em;
+  a {
+    display: flex;
+    text-decoration: none;
+  }
+}

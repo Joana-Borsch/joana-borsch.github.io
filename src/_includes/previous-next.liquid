@@ -1,0 +1,12 @@
+{% assign user_url = site.url | append: site.baseurl %}
+{% assign full_base_url = user_url | default: site.github.url %}
+{% if page.previous.url %}
+  <a href="{{ page.previous.url | prepend: full_base_url }}">
+    <p>&lang;&lang; {{ page.previous.title | truncatewords: 6 }}</p>
+  </a>
+{% endif %}
+{% if page.next.url %}
+  <a href="{{ page.next.url | prepend: full_base_url }}">
+    <p>{{ page.next.title | truncatewords: 6 }} &rang;&rang;</p>
+  </a>
+{% endif %}
