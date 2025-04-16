@@ -23,6 +23,8 @@ lang: ca
 date_locale: ca
 
 hide_search: true
+permalink: pretty
+
 # Build settings
 markdown: kramdown
 kramdown:
@@ -55,7 +57,7 @@ jekyll-minifier:
 pagination:
   enabled: true
   per_page: 3
-  permalink: "/page:num/"
+  permalink: "/:path"
   title: " - :num"
   limit: 0
   sort_field: "date"
@@ -63,4 +65,3 @@ pagination:
 
 livereload: true
 port: 8080
-#TODO: v2 pagination stuff

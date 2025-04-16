@@ -5,13 +5,28 @@ pagination:
   per_page: 3
 ---
 <ul class="post-list">
-  {% assign category = page.category | default: page.pagination.category %}
-  {% assign category_posts = site.posts | where_exp: 'post', 'post.categories contains page.pagination.category' %}
-  {% if category_posts %}
-    {% for post in category_posts %}
+  {% assign post_count = paginator.posts | size %}
+  {% if post_count > 0 %}
+    {% for post in paginator.posts %}
       {% include post-list-item.liquid %}
     {% endfor %}
   {% else %}
-    <li>No hi ha {{ category }}.</li>
+    <li>No hi ha cap entrada en {{ page.pagination.category }}.</li>
   {% endif %}
 </ul>
+
+{% if paginator.total_pages > 1 %}
+  <div class="post-pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn"> &lang;&lang; Anterior</a>
+    {% else %}
+      <span>&nbsp;</span>
+    {% endif %}
+    <span class="pagination-number">{{ paginator.page }} de {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="pagination-next btn">Següent &rang;&rang;</a>
+    {% else %}
+      <span>&nbsp;</span>
+    {% endif %}
+  </div>
+{% endif %}
