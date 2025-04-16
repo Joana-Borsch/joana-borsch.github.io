@@ -1,6 +1,7 @@
 <nav class="site-navigation">
   <ul>
-    {% for item in site.pages %}
+    {% assign sorted_pages = site.pages | sort: 'order' %}
+    {% for item in sorted_pages %}
       {% if item.title and item.autogen == null %}
         <li class="{% if item.url == page.url %}active{% endif %}">
           <a href="{{ item.url }}">{{ item.title }}</a>

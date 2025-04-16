@@ -1,6 +1,7 @@
 ---
 layout: page
 title: L'autora
+order: 2
 ---
 
 Joana Börsch va néixer un dia de boira espessa, en una ciutat que no existeix en cap mapa. Des de petita, somiava amb escenaris il·luminats i ovacions infinites, però el seu destí es va entrebancar amb una cullera de fusta. Un dia, mentre intentava improvisar un monòleg shakespearià davant d’un mirall, va cuinar accidentalment la primera sopa russa perfecta de la història. La notícia es va escampar com la pólvora: en aquell mateix instant, un crític gastronòmic despistat va tastar la sopa i va plorar d’emoció. Així va començar la seva maledicció.
