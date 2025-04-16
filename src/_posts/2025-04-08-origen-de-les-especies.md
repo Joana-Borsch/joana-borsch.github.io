@@ -1,6 +1,6 @@
 ---
 title: L'origen de les espècies
-subtitle: Un cant a l'alegria
+subtitle: Un perill ens sobrevola
 author: Joana Börsch
 layout: post
 ---
