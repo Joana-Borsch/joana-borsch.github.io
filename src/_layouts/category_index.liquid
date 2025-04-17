@@ -11,7 +11,7 @@ pagination:
       {% include post-list-item.liquid %}
     {% endfor %}
   {% else %}
-    <li>No hi ha cap entrada en {{ page.pagination.category }}.</li>
+    <li>No hi ha cap entrada en {{ page.pagination.category | capitalize }}.</li>
   {% endif %}
 </ul>
 
