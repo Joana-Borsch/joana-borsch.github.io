@@ -1,6 +1,7 @@
 ---
 layout: page
 title: L'autora
+menu_title: Toc, toc
 order: 2
 ---
 

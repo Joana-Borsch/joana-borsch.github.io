@@ -3,8 +3,9 @@
     {% assign sorted_pages = site.pages | sort: 'order' %}
     {% for item in sorted_pages %}
       {% if item.title and item.autogen == null %}
+        {% assign clean_url = item.url | replace: 'index.html', '' %}
         <li class="{% if item.url == page.url %}active{% endif %}">
-          <a href="{{ item.url }}">{{ item.title }}</a>
+          <a href="{{ clean_url }}">{% if item.menu_title %}{{ item.menu_title }}{% else %}{{ item.title }}{% endif %}</a>
         </li>
       {% endif %}
     {% endfor %}

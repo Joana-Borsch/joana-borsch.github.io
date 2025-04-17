@@ -57,7 +57,7 @@ jekyll-minifier:
 pagination:
   enabled: true
   per_page: 3
-  permalink: "/:path"
+  permalink: '/page/:num/'
   title: " - :num"
   limit: 0
   sort_field: "date"
