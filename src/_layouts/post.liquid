@@ -4,12 +4,12 @@ layout: default
 {% include menu.liquid %}
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
-  {% if page.title %}
-    <div class="divided">
-      <h1 itemprop="name headline">{{ page.title }}</h1>
+  <div class="divided">
+    <h1 itemprop="name headline">{{ page.title }}</h1>
+    {% if page.subtitle %}
       <h4>{{ page.subtitle }}</h4>
-    </div>
-  {% endif %}
+    {% endif %}
+  </div>
 
   <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
   {% if page.content %}
