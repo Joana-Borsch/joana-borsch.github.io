@@ -5,4 +5,5 @@ order: 3
 pagination:
   enabled: true
   category: "Afers estrangers"
+  exclude_category: true
 ---
