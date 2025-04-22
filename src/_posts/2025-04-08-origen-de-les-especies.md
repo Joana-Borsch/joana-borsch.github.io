@@ -3,6 +3,7 @@ title: L'origen de les espècies
 subtitle: Un perill ens sobrevola
 author: Joana Börsch
 layout: post
+category: Portada
 ---
 
 Quan vaig al teatre m'agrada que em sorprenguen, m'agrada veure coses que m'entusiasmen. L'acte teatral ja és en si, per a mi, un acte que m'entusiasma. Entrar per la porta, sentir l'olor característica de cada teatre, observar la gent, l'espai, seure i esperar. M'agrada també observar els actors quan la proposta artística els posa sobre l'escenari mentre està entrant el públic. És el cas de l'obra *L'origen de les espècies*, que ens porta una proposta interessant amb una posada en escena diferent. És amb esta ressenya que inaugure este nou espai de _Fugint de l'Escalímpal_ i és molt grat poder obrir este blog amb l'espectacle d'un amic i company de professió.

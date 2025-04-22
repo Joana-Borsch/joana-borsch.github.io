@@ -14,7 +14,8 @@ layout: default
 <main
   class="home"
   id="main"
-  aria-label="Content">
+  aria-label="Content"
+>
   <h1 class="content-title divided">
     {% if site.pagination.enabled and site.paginate_path and paginator.total_pages > 1 -%}
       Acte {{ paginator.page | to_roman -}}
@@ -22,21 +23,17 @@ layout: default
       Acte I
     {%- endif %}
   </h1>
-
   {% if site.pagination.enabled and site.paginate_path %}
     <ul class="post-list">
       {% for post in paginator.posts %}
-        {% unless post.pagination.exclude_category %}
-          {% include post-list-item.liquid %}
-        {% endunless %}
+        {% include post-list-item.liquid %}
       {% endfor %}
     </ul>
 
     {% if paginator.total_pages > 1 %}
       <div class="post-pagination">
         {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn">
-            &lang;&lang; Anterior</a>
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn"> &lang;&lang; Anterior</a>
         {% else %}
           <span>&nbsp;</span>
         {% endif %}
@@ -51,9 +48,7 @@ layout: default
   {% else %}
     <ul class="post-list">
       {% for post in site.posts %}
-        {% unless post.pagination.exclude_category %}
-          {% include post-list-item.liquid %}
-        {% endunless %}
+        {% include post-list-item.liquid %}
       {% endfor %}
     </ul>
   {% endif %}
