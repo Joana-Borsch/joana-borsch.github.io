@@ -17,12 +17,14 @@ tinc dues trucades perdudes de ma mare.
 -Ja ho sé, però esta nit he dormit fatal. Què vols?
 
 Ja sé que no em truca per a saber com estic, ja fa temps que vaig deixar de ser la seua
-xiqueta i ara quasi que sóc com una assistenta per a ella. Li dic que sí que puc anar a
+xiqueta i ara quasi que sóc una assistenta per a ella. Li dic que sí que puc anar a
 cuidar al iaio esta nit. Amb presses agafe el necessari per a dormir a casa de ma mare.
 Des que es van separar els meus pares, ma mare cada nit queda amb una persona
 diferent i el més probable és que se'n vaja al llit amb ella. Evite contar-li tot això al meu
-pare, no entén com després de 35 anys de casats, ella un dia va decidir que ja no volia
-saber res d'eixe matrimoni, va fer la maleta i se'n va anar. Arribe a la parada de metro
+pare, no entén com després de 35 anys de casats, ella va decidir que ja no volia
+saber res d'eixe matrimoni. Un dia va fer la maleta i se'n va anar. 
+
+Arribe a la parada de metro
 suada. Trec el mòbil i em pose música, poc a poc el bullici va desapareixent i només
 escolte la dolça melodia de la banda sonora d’El Senyor dels Anells, per un moment
 oblide que estic a València i que m'espera una nit intensa. Baixe del metro i de camí
@@ -84,9 +86,7 @@ molt lliure.
 
 Agafe *El senyor dels Anells* i intente llegir, però malauradament el cafè no ha fet el seu
 efecte, encara no he llegit ni dues fulles i ja m'estic adormint. Una altra nit que no
-podré treballar. Jo també faig el meu ritual nocturn abans de clavar-me al llit. En la
-meua habitació de quan era xicoteta de sobte tornen els monstres, no recordava ja per
-què vaig marxar eixe dia, sense donar més explicacions. En la meua habitació de quan era xicoteta de sobte tornen els monstres, no recordava ja per que vaig marxar de sobte un dia, sense donar més explicacions. Ara, vist amb perspectiva no suportava la indiferència que es respirava, no suportava que ma mare només estiguera pendent d’ella mateixa i que mon pare estiguera sempre amb el nas ficat entre algun periòdic, comentant en veu alta les noticies. Que no parlaren entre ells, que no es miraren, que no em miraren. 
+podré treballar. Jo també faig el meu ritual nocturn abans de clavar-me al llit. En la meua habitació de quan era xicoteta de sobte tornen els monstres, no recordava ja per que vaig marxar de sobte un dia, sense donar més explicacions. Ara, vist amb perspectiva no suportava la indiferència que es respirava, no suportava que ma mare només estiguera pendent d’ella mateixa i que mon pare estiguera sempre amb el nas ficat entre algun periòdic, comentant en veu alta les noticies. Que no parlaren entre ells, que no es miraren, que no em miraren. 
 
 He tornat a somiar amb vidres trencats, eren verds, translúcids. Es pot odiar algú de
 la teua família? Em desperte, el meu iaio no ha cridat en tota la nit. Per un moment
